@@ -1,0 +1,11 @@
+[10-08-2024 23:03:01.343 INFO com.bankguru.payment.Payment_01_Creat_and_Check] - open new customer page
+[10-08-2024 23:03:01.526 INFO com.bankguru.payment.Payment_01_Creat_and_Check] - enter to  cutomer texbox
+[10-08-2024 23:03:03.418 INFO com.bankguru.payment.Payment_01_Creat_and_Check] - enter to  name cutomer texbox
+[10-08-2024 23:03:06.459 INFO com.bankguru.payment.Payment_01_Creat_and_Check] - enter to  date cutomer texbox
+[10-08-2024 23:03:06.608 INFO com.bankguru.payment.Payment_01_Creat_and_Check] - enter to  address cutomer texbox
+[10-08-2024 23:03:11.809 INFO com.bankguru.payment.Payment_01_Creat_and_Check] - enter to  city cutomer texbox
+[10-08-2024 23:03:12.002 INFO com.bankguru.payment.Payment_01_Creat_and_Check] - enter to  state cutomer texbox
+[10-08-2024 23:03:12.162 INFO com.bankguru.payment.Payment_01_Creat_and_Check] - enter to  pin cutomer texbox
+[10-08-2024 23:03:12.324 INFO com.bankguru.payment.Payment_01_Creat_and_Check] - enter to  mobile cutomer texbox
+[10-08-2024 23:03:12.491 INFO com.bankguru.payment.Payment_01_Creat_and_Check] - enter to  email cutomer texbox
+[10-08-2024 23:03:12.683 INFO com.bankguru.payment.Payment_01_Creat_and_Check] - enter to  password cutomer texbox

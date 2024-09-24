@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-23T23:49:27 ICT" name="OpenCart User" finished-at="2024-09-23T23:51:29 ICT" duration-ms="122431">
+    <groups>
+    </groups>
+    <test started-at="2024-09-23T23:49:27 ICT" name="Run on Edge" finished-at="2024-09-23T23:51:29 ICT" duration-ms="122431">
+      <class name="com.opencart.user.User_01_Register">
+        <test-method is-config="true" signature="deleteFileInReport()[pri:0, instance:com.opencart.user.User_01_Register@2cae1042]" started-at="2024-09-23T23:49:27 ICT" name="deleteFileInReport" finished-at="2024-09-23T23:49:27 ICT" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteFileInReport -->
+        <test-method is-config="true" signature="beforeClass(java.lang.String,java.lang.String)[pri:0, instance:com.opencart.user.User_01_Register@2cae1042]" started-at="2024-09-23T23:49:27 ICT" name="beforeClass" finished-at="2024-09-23T23:49:38 ICT" duration-ms="11649" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demo-opencart.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="User_01_Register_With_Empty_Data(java.lang.reflect.Method)[pri:0, instance:com.opencart.user.User_01_Register@2cae1042]" started-at="2024-09-23T23:49:38 ICT" name="User_01_Register_With_Empty_Data" finished-at="2024-09-23T23:49:45 ICT" duration-ms="7107" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.opencart.user.User_01_Register.User_01_Register_With_Empty_Data(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_01_Register_With_Empty_Data -->
+        <test-method signature="User_02_Register_With_Invalid_Email(java.lang.reflect.Method)[pri:0, instance:com.opencart.user.User_01_Register@2cae1042]" started-at="2024-09-23T23:49:45 ICT" name="User_02_Register_With_Invalid_Email" finished-at="2024-09-23T23:50:05 ICT" duration-ms="20049" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.opencart.user.User_01_Register.User_02_Register_With_Invalid_Email(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_02_Register_With_Invalid_Email -->
+        <test-method signature="User_03_Register_With_Successful_Information(java.lang.reflect.Method)[pri:0, instance:com.opencart.user.User_01_Register@2cae1042]" started-at="2024-09-23T23:50:05 ICT" name="User_03_Register_With_Successful_Information" finished-at="2024-09-23T23:50:26 ICT" duration-ms="20250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.opencart.user.User_01_Register.User_03_Register_With_Successful_Information(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_03_Register_With_Successful_Information -->
+        <test-method signature="User_04_Register_With_Existed_Email(java.lang.reflect.Method)[pri:0, instance:com.opencart.user.User_01_Register@2cae1042]" started-at="2024-09-23T23:50:26 ICT" name="User_04_Register_With_Existed_Email" finished-at="2024-09-23T23:50:49 ICT" duration-ms="23700" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.opencart.user.User_01_Register.User_04_Register_With_Existed_Email(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_04_Register_With_Existed_Email -->
+        <test-method signature="User_05_Register_With_Password_Less_Than_4_Characters(java.lang.reflect.Method)[pri:0, instance:com.opencart.user.User_01_Register@2cae1042]" started-at="2024-09-23T23:50:49 ICT" name="User_05_Register_With_Password_Less_Than_4_Characters" finished-at="2024-09-23T23:51:09 ICT" duration-ms="19957" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.opencart.user.User_01_Register.User_05_Register_With_Password_Less_Than_4_Characters(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_05_Register_With_Password_Less_Than_4_Characters -->
+        <test-method signature="User_06_Register_With_Password_More_Than_20_Characters(java.lang.reflect.Method)[pri:0, instance:com.opencart.user.User_01_Register@2cae1042]" started-at="2024-09-23T23:51:09 ICT" name="User_06_Register_With_Password_More_Than_20_Characters" finished-at="2024-09-23T23:51:29 ICT" duration-ms="19655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.opencart.user.User_01_Register.User_06_Register_With_Password_More_Than_20_Characters(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_06_Register_With_Password_More_Than_20_Characters -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.opencart.user.User_01_Register@2cae1042]" started-at="2024-09-23T23:51:29 ICT" name="afterClass" finished-at="2024-09-23T23:51:29 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.opencart.user.User_01_Register -->
+    </test> <!-- Run on Edge -->
+  </suite> <!-- OpenCart User -->
+</testng-results>
